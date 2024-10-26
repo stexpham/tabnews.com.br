@@ -113,7 +113,7 @@ resource "aws_db_instance" "postgres" {
 
   username                    = "u${random_string.postgres_username.result}" # has to start with a letter
   password                    = random_password.postgres_password.result
-  db_name                     = "tabnews"
+  db_name                     = "verceldb"
   port                        = random_integer.postgres_port.result
   publicly_accessible         = true
   multi_az                    = false
