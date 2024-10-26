@@ -1,4 +1,4 @@
-name: 'tabnews'
+name: 'verceldb'
 services:
   postgres_dev:
     container_name: 'postgres-dev'
